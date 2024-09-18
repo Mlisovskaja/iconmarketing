@@ -1,0 +1,74 @@
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+    .modal-window {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: calc(100% - 30px);
+            max-width: 450px;
+            background-color: #FFFFFF;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            padding: 40px;
+            
+        }
+    .modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    }
+    }
+/*-----------TABLET--------------*/
+@media screen and (min-width: 768px) {
+    .modal-window {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 450px;
+            background-color: #FFFFFF;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            padding: 40px;
+        }
+    
+        .modal-close-btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 0;
+        }
+}
+/*---------------DESKTOP-----------------*/
+@media screen and (min-width: 1200px) {
+.modal-window {
+    width: 528px;
+    height: 581px;
+}
+
+.modal-close-btn {
+
+    &:hover,
+    &:focus {
+    fill: var(--accent-color);
+    }
+}
+}

@@ -1,0 +1,45 @@
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+    .services {
+        padding-top: 0;
+        
+    }
+}
+
+
+/*-----------TABLET--------------*/
+@media screen and (min-width: 768px) {
+.services {
+        padding-top: 0;
+      
+    }
+}
+
+/*-----------DESKTOP--------------*/
+@media screen and (min-width: 1200px) {
+.services {
+        padding-top: 0;
+       
+    }
+    .service-section-title {
+        color: rgba(97, 82, 77, 1);
+    }
+
+    .services-list {
+        list-style: "❯❯";
+        padding-left: 150px;
+
+    }
+    .services-list__item {
+        padding-left: 40px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        color:  rgba(97, 82, 77, 1);
+    }
+
+    .services-list__description {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+}
