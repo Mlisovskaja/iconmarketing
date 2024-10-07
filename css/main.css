@@ -32,7 +32,7 @@ img {
 }
 
 body {
-  font-family: var(--primary-font);
+  font-family: "Poppins", system-ui;
   background: rgb(240, 235, 232);
 }
 
@@ -1708,8 +1708,7 @@ button {
   }
 }
 :root {
-  --primary-font: "Roboto", sans-serif;
-  --logo-font: "Raleway", sans-serif;
+  --primary-font: "Poppins", system-ui;
   --accent-color: #03d6c1;
   --item-gap: 30px;
   --transition-main: 250ms cubic-bezier(0.4, 0, 0.2, 1);
