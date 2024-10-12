@@ -1,0 +1,49 @@
+/*---------0-1199px---------------*/
+@media screen and (max-width: 1199px) {
+  .package {
+    display: none;
+  }
+}
+
+/*---------------DESKTOP-----------------*/
+@media screen and (min-width: 1200px) {
+  .package {
+    background-color: rgba(97, 82, 77, 1);
+  }
+
+  .package-section-title {
+    color: #fff;
+  }
+
+  .package-list {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .package-list__item {
+    color: #fff;
+    font-size: 15px;
+    width: 30%;
+    font-weight: 400;
+  }
+
+  .package-list-title {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+  }
+  .package-list-services {
+    list-style: "❯❯";
+    text-align: left;
+  }
+  .package-list-service {
+    padding-left: 10px;
+  }
+
+  .package-list-service:not(:last-child) {
+    padding-bottom: 15px;
+  }
+}

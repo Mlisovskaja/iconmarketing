@@ -1,0 +1,24 @@
+@import "./base/base";
+@import "./base/container";
+@import "./base/section";
+
+@import "./components/backdrop";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/logo";
+@import "./components/mobile-menu";
+@import "./components/modal-form";
+@import "./components/modal-window";
+@import "./components/section-title";
+
+@import "./layout/about";
+@import "./layout/advantages";
+@import "./layout/clients";
+@import "./layout/hero";
+@import "./layout/portfolio";
+@import "./layout/team";
+@import "./layout/spheres";
+@import "./layout/services";
+@import "./layout/packges";
+
+@import "./utils/variables";

@@ -1,0 +1,38 @@
+/*---------0-1199px---------------*/
+@media screen and (max-width: 1199px) {
+  .services {
+    display: none;
+  }
+}
+
+/*---------------DESKTOP-----------------*/
+@media screen and (min-width: 1200px) {
+  .services {
+    background: var(--second-color);
+  }
+  .service-section-title {
+    color: rgba(97, 82, 77, 1);
+  }
+
+  .services-list {
+    list-style: "❯❯";
+    padding-left: 150px;
+  }
+  .services-list__item {
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+
+  .services-list__title {
+    font-size: 20px;
+    color: rgba(97, 82, 77, 1);
+    font-weight: 600;
+  }
+
+  .services-list__description {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(97, 82, 77, 1);
+  }
+}

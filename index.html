@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IconMarketing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    
+</head>
+
+<body>
+<!--HEADER-->
+    <header class="page-header">
+        <div class="container page-header-box">
+       
+            <a class="link" href="./index.html" lang="en">
+                <img class="page-header__logo" 
+                srcset="./images/logo/logo_2x.png"
+                src="./images/logo/logo_1x.png"
+                alt="icon-marketing-logo"/>
+                 <nav class="page-nav">
+            <ul class="menu list"> 
+                <li class="menu__item">
+                    <a class="menu__link current link" href="./index.html">Agenzia</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link link" href="#contacts">Contatti</a>
+                </li>
+            </ul> 
+        </nav>
+        <button type="button" class="mobile-menu-open" data-menu-open>
+        <svg class="mobile-menu-icon" width="40px" height="40px">
+            <use href="./images/icons.svg#icon-mobile-menu"></use>
+        </svg>
+        </button>
+        <div class="contacts-box">
+            <a class="contact-e-mail link" href="mailto:iconmarketingitalia@gmail.com">iconmarketingitalia@gmail.com
+                <svg class="envelope-icon" width="16px" height="12px">
+                    <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+            </a>
+            <a class="contact-phone-number link" href="tel:+393464726900">+39 346 472 69 00
+                <svg class="phone-icon" width="10px" height="16px">
+                    <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+            </a>
+    </div>
+</div>
+<!--MOBILE MENU-->
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu__container">
+                <button class="mobile-menu__close-btn" data-menu-close>
+                    <svg class="mobile-menu__close-icon" width="19" height="19">
+                        <use href="./images/icons.svg#icon-modal-close-btn"></use>
+                    </svg>
+                </button>
+                <div class="mobile-menu__box">
+                <ul class="mobile-menu__list list">
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link current link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+                </div>
+                <div class="mobile-menu__contacts-box">
+                <a class="mobile-menu__contact-phone-number link" href="tel:+380961111111">+38 096 111 11 11
+                </a>
+                <a class="mobile-menu__contact-e-mail link" href="mailto:info@devstudio.com">info@devstudio.com
+                </a>
+                <div class="mobile-menu__sn-box">
+                    <ul class="mobile-menu__sn-list list">
+                        <li class="mobile-menu__sn-item">
+                            <a class="mobile-menu__sn-link link" href="">Instagram</a>
+                        </li>
+                        <li class="mobile-menu__sn-item">
+                            <a class="mobile-menu__sn-link link" href="">Twitter</a>
+                        </li>
+                        <li class="mobile-menu__sn-item link">
+                            <a class="mobile-menu__sn-link link" href="">Facebook</a>
+                        </li>
+                        <li class="mobile-menu__sn-item link">
+                            <a class="mobile-menu__sn-link link" href="">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+        </header>
+   
+
+    <!-- <main> -->
+ <!-- HERO --> 
+
+    <section class="hero section">  
+    <div class="hero__box">
+      
+        <img class="hero__img"
+        srcset="./images/desktop/hero/hero@2x.png"
+        src="./images/desktop/hero/hero-1600.jpg"
+        alt="laptop"
+        />
+
+        <div>
+            <div class="hero__title-box">
+        <h1 class="hero__title">Servizi di Marketing nel Veneto, Italia - <br>Icon Marketing</h1>
+    </div>
+        <div class="hero__bnt-box"><button class="hero__btn" type="button" data-modal-open>Scopri di più</button>
+            </div>
+            </div>
+    </div>    
+    </section>
+
+<!--ABOUT-->
+        <section class="about section">  
+            <div class="container about__box">
+            <p class="about__text">Benvenuti in <span class="about__text-bold">Icon Marketing</span> - <br/>La tua agenzia di marketing nel Veneto. 
+                <br/>
+                <br/>Siamo esperti nel fornire <br/><span class="about__text-bold">servizi di marketing personalizzati</span> <br/>per aziende di tutte le dimensioni. <br/>Il nostro obiettivo è garantire una visibilità massima e il successo dei tuoi progetti nel competitivo mercato veneto.</p>
+            <img class="about__img"
+            srcset="./images/desktop/about/about@2x.png"
+            src="./images//desktop/about/about.png"
+            alt="donna con laptop"
+            />
+            </div>
+        </section>   
+
+<!--SPHERES-->
+        <section class="spheres section">  
+            <div class="container spheres__box">
+            <img class="spheres__img"
+            src="./images//desktop/spheres/spheres.jpg"
+            alt="nomi di business"
+            />
+            </div>
+        </section>   
+
+<section class="services section">  
+            <div class="container services-box">
+            <h2 class="service-section-title section-title">I Nostri Servizi di Marketing</h2>
+            <ul class="services-list list">
+                <li class="services-list__item">
+                    <div class="services-list__box">
+                    <h3 class="services-list__title">Analisi di Mercato e della Concorrenza nel Veneto</h3>
+                    <p class="services-list__description">Effettuiamo ricerca approfondita sul mercato e sulla concorrenza nel Veneto per identificare opportunità di crescita.</p>
+                    </div>
+                </li>
+               <li class="services-list__item">
+                    <div class="services-list__box">
+                    <h3 class="services-list__title">Sviluppo e Implementazione di Piani di Marketing</h3>
+                    <p class="services-list__description">Creiamo strategie di marketing su misura per raggiungere i tuoi obiettivi aziendali specifici.</p>
+                    </div>
+                </li>
+                <li class="services-list__item">
+                    <div class="services-list__box">
+                    <h3 class="services-list__title">Branding e Identità Visiva</h3>
+                    <p class="services-list__description">Sviluppiamo un’immagine di marca unica e riconoscibile per differenziare la tua azienda nella regione del Veneto.</p>
+                    </div>
+                </li>
+                <li class="services-list__item">
+                    <div class="services-list__box">
+                    <h3 class="services-list__title">Social Media Marketing (SMM)</h3>
+                    <p class="services-list__description">Promuoviamo il tuo brand sui social media per aumentare la riconoscibilità e l’engagement del tuo pubblico target.</p>
+                    </div>
+                </li>
+                <li class="services-list__item">
+                    <div class="services-list__box">
+                    <h3 class="services-list__title">Ottimizzazione per i Motori di Ricerca (SEO)</h3>
+                    <p class="services-list__description">Ottimizziamo il tuo sito web per migliorarne il posizionamento sui motori di ricerca e attirare più visitatori.</p>
+                    </div>
+                </li>
+                <li class="services-list__item">
+                    <div class="services-list__box">
+                    <h3 class="services-list__title">Email Marketing Efficace</h3>
+                    <p class="services-list__description">Progettiamo campagne di email marketing per coinvolgere e convertire i tuoi potenziali clienti.</p>
+                    </div>
+                </li>
+                <li class="services-list__item">
+                    <div class="services-list__box">
+                    <h3 class="services-list__title">Creazione di Contenuti Visivi di Qualità (Foto/Video)</h3>
+                    <p class="services-list__description">Produciamo contenuti visivi accattivanti per valorizzare la tua offerta e coinvolgere il tuo pubblico.</p>
+                    </div>
+                </li>
+                <li class="services-list__item">
+                    <div class="services-list__box">
+                    <h3 class="services-list__title">Gestione della Reputazione e Marketing di Crisi</h3>
+                    <p class="services-list__description">Offriamo strategie per gestire la reputazione del tuo brand e affrontare situazioni di crisi.</p>
+                    </div>
+                </li>
+                <li class="services-list__item">
+                    <div class="services-list__box">
+                    <h3 class="services-list__title">Organizzazione di Eventi e Presentazioni</h3>
+                    <p class="services-list__description">Ci occupiamo della pianificazione e dell’organizzazione di eventi professionali nel Veneto.</p>
+                    </div>
+                </li>
+                <li class="services-list__item">
+                    <div class="services-list__box">
+                    <h3 class="services-list__title">Produzione di Merchandise e Materiale Promozionale (POSM)</h3>
+                    <p class="services-list__description">Creiamo prodotti promozionali personalizzati per sostenere le tue campagne di marketing.</p>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </section>  
+        
+ <!--PACKAGES-->
+        <section class="package section">  
+            <div class="container package-box">
+            <h2 class="package-section-title section-title">Pacchetti di Servizi di Marketing nel Veneto</h2>
+            <ul class="package-list list">
+                <li class="package-list__item">
+                    <div class="package-list__box">
+                    <h3 class="package-list-title">Easy Start – 500€ / mese</h3>
+                    <ul class="package-list-services">
+                        <li class="package-list-service">Analisi del business e dei concorrenti</li>
+                        <li class="package-list-service">Impostazione dei profili sui social media</li>
+                        <li class="package-list-service">Creazione di un piano di contenuti mensile (8 post)</li>
+                        <li class="package-list-service">Report sui risultati alla fine del mese</li>
+                        <li class="package-list-service">Creazione di contenuti foto/video a pagamento aggiuntivo</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="package-list__item">
+                    <div class="package-list__box">
+                    <h3 class="package-list-title">Grow Up – 1250€ / mese</h3>
+                    <ul class="package-list-services">
+                        <li class="package-list-service">Analisi del business e dei concorrenti</li>
+                        <li class="package-list-service">Sviluppo dell’identità visiva e del brand book</li>
+                        <li class="package-list-service">Impostazione dei profili sui social media</li>
+                        <li class="package-list-service">Creazione di un piano di contenuti mensile (12 post)</li>
+                        <li class="package-list-service">Impostazione di campagne pubblicitarie (budget per la promozione separato)</li>
+                        <li class="package-list-service">Report sui risultati settimanali</li>
+                        <li class="package-list-service">Creazione di contenuti foto/video a pagamento aggiuntivo</li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="package-list__item">
+                    <div class="package-list__box">
+                    <h3 class="package-list-title">Premium – 2500€ / mese</h3>
+                    <ul class="package-list-services">
+                        <li class="package-list-service">Analisi del business e dei concorrenti</li>
+                        <li class="package-list-service">Sviluppo dell’identità visiva e del brand book</li>
+                        <li class="package-list-service">Creazione di una strategia unica di promozione e raccomandazioni per il miglioramento del prodotto</li>
+                        <li class="package-list-service">Impostazione dei profili sui social media</li>
+                        <li class="package-list-service">Creazione di un piano di contenuti mensile (12 post)</li>
+                        <li class="package-list-service">Impostazione di campagne pubblicitarie (budget per la promozione separato)</li>
+                        <li class="package-list-service">SEO ottimizzazione e promozione del sito</li>
+                        <li class="package-list-service">Controllo quotidiano degli indicatori e consultazioni individuali con i nostri specialisti</li>
+                        <li class="package-list-service">Creazione di contenuti foto/video in regalo (per contratti superiori a 3 mesi)</li>
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </section>   
+       
+<!--ADVANTAGES-->
+
+    <section class="advantages section">   
+        <div class="container">
+        <h2 class="section-title advantages-section-title">Perché Scegliere Icon Marketing?</h2>
+        <ul class="advantages-list list">
+            <li class="advantages-list__item">
+                <div class="advantages-list__icon-box">
+            <h3 class="advantages-list__title"><span class="advantages-number">100</span> <br/>Competenza:</h3>
+                <p class="advantages-list__description">Oltre 100 campagne pubblicitarie di successo in Europa.</p>
+                </div>
+                </li>
+                <li class="advantages-list__item">
+                    <div class="advantages-list__icon-box">
+                   <h3 class="advantages-list__title"><span class="advantages-number">70</span> <br/>Clienti Soddisfatti:</h3>
+                    <p class="advantages-list__description">Oltre 70 clienti che hanno scelto i nostri servizi di marketing.</p>
+                    </div>
+                    
+                </li>
+                <li class="advantages-list__item">
+                    <div class="advantages-list__icon-box">
+                   <h3 class="advantages-list__title"><span class="advantages-number">10</span> <br/>Anni di Esperienza:</h3>
+                    <p class="advantages-list__description">Un approccio esperto e collaudato nel settore.</p>
+                    </div>
+                    
+                </li>
+            </ul>
+
+           
+            </div>
+        </section>
+
+
+ <!--TEAM-->
+        <section class="team section"> 
+            <div class="container">
+            <h2 class="section-title">Наша команда</h2>
+            <ul class="team-list list">
+                <li class="team-list__item">
+                    <picture>
+                        <source srcset="./images/desktop/team/igor-270/igor-270.webp 1x, ./images/desktop/team/igor-270/igor-270@2x.webp 2x" media="(min-width: 1200px)"
+                            type="image/webp" />
+                        <source srcset="./images/desktop/team/igor-270/igor-270.jpg 1x, ./images/desktop/team/igor-270/igor-270@2x.jpg 2x" media="(min-width: 1200px)" />
+                    
+                        <source srcset="./images/tablet/team/igor-354/igor-354.webp 1x, ./images/tablet/team/igor-354/igor-354@2x.webp 2x" media="(min-width: 768px)"
+                            type="image/webp" />
+                        <source srcset="./images/tablet/team/igor-354/igor-354.jpg 1x, ./images/tablet/team/igor-354/igor-354@2x.jpg 2x" media="(min-width: 768px)" />
+                    
+                        <source srcset="images\mobile\team\igor-450\igor-450.webp 1x, images\mobile\team\igor-450\igor-450@2x.webp 2x" media="(max-width: 767px)"
+                            type="image/webp" />
+                        <source srcset="images\mobile\team\igor-450\igor-450.jpg 1x, images\mobile\team\igor-450\igor-450@2x.jpg 2x" media="(max-width: 767px)" />
+                    
+                        <img src="./images/desktop/team/igor-270/igor-270.jpg" alt="мужчина в очках с бородой улыбается"/>
+                    </picture>
+                    <h3 class="team-list__name">Игорь Демьяненко</h3>
+                    <p class="team-list__position" lang="en">Product Designer</p>
+                <ul class="social-list list">
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                </li>
+                <li class="team-list__item">
+                    <picture>
+                        <source srcset="images\desktop\team\olga-270\olga-270.webp 1x, images\desktop\team\olga-270\olga-270@2x.webp 2x"
+                            media="(min-width: 1200px)" type="image/webp" />
+                        <source srcset="images\desktop\team\olga-270\olga-270.jpg 1x, images\desktop\team\olga-270\olga-270@2x.jpg 2x"
+                            media="(min-width: 1200px)" />
+                    
+                        <source srcset="images\tablet\team\olga-354\olga-354.webp 1x, images\tablet\team\olga-354\olga-354@2x.webp 2x"
+                            media="(min-width: 768px)" type="image/webp" />
+                        <source srcset="images\tablet\team\olga-354\olga-354.jpg 1x, images\tablet\team\olga-354\olga-354@2x.jpg 2x"
+                            media="(min-width: 768px)" />
+                    
+                        <source srcset="images\mobile\team\olga-450\olga-450.webp 1x, images\mobile\team\olga-450\olga-450@2x.webp 2x"
+                            media="(max-width: 767px)" type="image/webp" />
+                        <source srcset="images\mobile\team\olga-450\olga-450.jpg 1x, images\mobile\team\olga-450\olga-450@2x.jpg 2x"
+                            media="(max-width: 767px)" />
+                        <img src="images\desktop\team\olga-270\olga-270.jpg" alt="блондинка в очках улыбается" />
+                    </picture>                  
+                    <h3 class="team-list__name">Ольга Репина</h3>
+                    <p class="team-list__position" lang="en">Frontend Developer</p>
+                <ul class="social-list list">
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                </li>
+                <li class="team-list__item">
+                    <picture>
+                        <source srcset="images\desktop\team\nikolay-270\nikolay-270.webp 1x, images\desktop\team\nikolay-270\nikolay-270@2x.webp 2x"
+                            media="(min-width: 1200px)" type="image/webp" />
+                        <source srcset="images\desktop\team\nikolay-270\nikolay-270.jpg 1x, images\desktop\team\nikolay-270\nikolay-270@2x.jpg 2x"
+                            media="(min-width: 1200px)" />
+                    
+                        <source srcset="images\tablet\team\nikolay-354\nikolay-354.webp 1x, images\tablet\team\nikolay-354\nikolay-354@2x.webp 2x"
+                            media="(min-width: 768px)" type="image/webp" />
+                        <source srcset="images\tablet\team\nikolay-354\nikolay-354.jpg 1x, images\tablet\team\nikolay-354\nikolay-354@2x.jpg 2x"
+                            media="(min-width: 768px)" />
+                    
+                        <source srcset="images\mobile\team\nikolay-450\nikolay-450.webp 1x, images\mobile\team\nikolay-450\nikolay-450@2x.webp 2x"
+                            media="(max-width: 767px)" type="image/webp" />
+                        <source srcset="images\mobile\team\nikolay-450\nikolay-450.jpg 1x, images\mobile\team\nikolay-450\nikolay-450@2x.jpg 2x"
+                            media="(max-width: 767px)" />
+                        <img src="images\desktop\team\nikolay-270\nikolay-270.jpg" alt="мужчина в классической рубашке улыбается"/>
+                    </picture>
+                    <h3 class="team-list__name">Николай Тарасов</h3>
+                    <p class="team-list__position" lang="en">Marketing</p>
+                <ul class="social-list list">
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                </li>
+                <li class="team-list__item">
+                    <picture>
+                        <source
+                            srcset="images\desktop\team\mykhail-270\mykhail-270.webp 1x, images\desktop\team\mykhail-270\mykhail-270@2x.webp 2x"
+                            media="(min-width: 1200px)" type="image/webp" />
+                        <source
+                            srcset="images\desktop\team\mykhail-270\mykhail-270.jpg 1x, images\desktop\team\mykhail-270\mykhail-270@2x.jpg 2x"
+                            media="(min-width: 1200px)" />
+                    
+                        <source
+                            srcset="images\tablet\team\mykhail-354\mykhail-354.webp 1x, images\tablet\team\mykhail-354\mykhail-354@2x.webp 2x"
+                            media="(min-width: 768px)" type="image/webp" />
+                        <source
+                            srcset="images\tablet\team\mykhail-354\mykhail-354.jpg 1x, images\tablet\team\mykhail-354\mykhail-354@2x.jpg 2x"
+                            media="(min-width: 768px)" />
+                    
+                        <source
+                            srcset="images\mobile\team\mykhail-450\mykhail-450.webp 1x, images\mobile\team\mykhail-450\mykhail-450@2x.webp 2x"
+                            media="(max-width: 767px)" type="image/webp" />
+                        <source
+                            srcset="images\mobile\team\mykhail-450\mykhail-450.jpg 1x, images\mobile\team\mykhail-450\mykhail-450@2x.jpg 2x"
+                            media="(max-width: 767px)" />
+                        <img src="images\desktop\team\mykhail-270\mykhail-270.jpg" alt="мужчина в очках с бородой улыбается" />
+                    </picture>
+                    <h3 class="team-list__name">Михаил Ермаков</h3>
+                    <p class="team-list__position" lang="en">UI Designer</p>
+                <ul class="social-list list">
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link">
+                            <svg class="socail-list__icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+            </ul>
+            </div>
+        </section>
+<!--CLIENTS-->
+    <section class="clients section"> 
+    <div class="container clients-box">
+        <h2 class="section-title">Постоянные клиенты</h2>
+<ul class="clients-list list">
+    <li class="clients-list__item">
+        <a href="" class="clients-list__link link">
+        <svg class="clients-list__icon" width="106px" height="60px">
+            <use href="./images/icons.svg#icon-group1">
+            </use>
+        </svg>
+        </a>
+    </li>
+    <li class="clients-list__item">
+        <a href="" class="clients-list__link link">
+        <svg class="clients-list__icon" width="106px" height="60px">
+            <use href="./images/icons.svg#icon-group2">
+            </use>
+        </svg>
+        </a>
+    </li>
+    <li class="clients-list__item">
+        <a href="" class="clients-list__link link">
+        <svg class="clients-list__icon" width="106px" height="60px">
+            <use href="./images/icons.svg#icon-group3">
+            </use>
+        </svg>
+        </a>
+    </li>
+    <li class="clients-list__item">
+        <a href="" class="clients-list__link link">
+        <svg class="clients-list__icon" width="106px" height="60px">
+            <use href="./images/icons.svg#icon-group4">
+            </use>
+        </svg>
+        </a>
+    </li>
+    <li class="clients-list__item">
+        <a href="" class="clients-list__link link">
+        <svg class="clients-list__icon" width="106px" height="60px">
+            <use href="./images/icons.svg#icon-group5">
+            </use>
+        </svg>
+        </a>
+    </li>
+    <li class="clients-list__item">
+        <a href="" class="clients-list__link link">
+        <svg class="clients-list__icon" width="106px" height="60px">
+            <use href="./images/icons.svg#icon-group6">
+            </use>
+        </svg>
+        </a>
+    </li>
+</ul>
+    </div>
+</section>
+    </main>
+<!--FOOTER-->
+  
+    <footer class="footer">
+        <div class="container footer-box">
+            <div class="footer-tablet-box">
+                <div>
+                <div class="footer-address-box">
+                    <a class="footer__logo link" href="./index.html" lang="en">
+        <img class="footer_logo-img" 
+        srcset="./images/logo/logo_2x.png" 
+        src="./images/logo/logo_1x.png"
+        alt="icon-marketing-logo" />
+
+    </a>
+                    <address class="address">
+                        <ul class="footer-contacts-list list">
+                            <li class="footer-contacts-list-item">
+                                <a class="footer-address-link link" href="https://www.google.com/maps/place/Regus+-+Verona,+Forum/@45.413897,10.9705691,17z/data=!3m1!4b1!4m6!3m5!1s0x477f5f7f0d512f63:0x7e9ab8a58d6ac50a!8m2!3d45.413897!4d10.9705691!16s%2Fg%2F11c37p80fp?entry=ttu&g_ep=EgoyMDI0MTAwOC4wIKXMDSoASAFQAw%3D%3D"
+                                    target="_blank" rel="noopener noreferrer">37135, Verona, Via Francia, 21/C</a>
+                            </li>
+                            <li class="footer-contacts-list-item">
+                                <a class="footer-contact-e-mail link" href="mailto:iconmarketingitalia@gmail.com">iconmarketingitalia@gmail.com</a>
+                            </li>
+                            <li class="footer-contacts-list-item">
+                                <a class="footer-contact-phone-number link" href="tel:+393464726900">+39 346 472 69 00</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer-sn-box">
+                    <h4 class="footer-sn-title">FOLLOW US</h4>
+                    <ul class="footer-social-list list">
+                        <li class="footer-social-list-item">
+                            <a href="" class="footer-social-list-link">
+                                <svg class="footer-socail-list-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-list-item">
+                            <a href="" class="footer-social-list-link">
+                                <svg class="footer-socail-list-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-list-item">
+                            <a href="" class="footer-social-list-link">
+                                <svg class="footer-socail-list-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-list-item">
+                            <a href="" class="footer-social-list-link">
+                                <svg class="footer-socail-list-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="footer_call-to-action">
+                    <div class="footer_text-box">
+                    <h3 class="footer_text">Contatta IconMarketing per i Tuoi Servizi di Marketing nel Veneto</h3>
+           <p class="footer_text">Se stai cercando servizi di marketing di alta qualità nella regione del Veneto, IconMarketing è la scelta giusta. Contattaci oggi stesso per una consulenza gratuita e scopri come possiamo aiutarti a raggiungere i tuoi obiettivi di business.</p>
+           </div>
+                    <div class="footer_photo-box">
+                        <div class="footer_photo" ></div>
+                    </div>
+
+</p>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="footer-copyright"><p>©Icon Marketing , 2024 P. IVA 05069400231</p></div>
+    </footer>
+<!--MODAL WINDOW-->
+    <div class="backdrop is-hidden" data-modal> 
+    <div class="modal-window">
+        <button type="button" class="modal-close-btn button" data-modal-close>
+            <svg class="modal-close-btn-icon" width="11" height="11">
+                <use href="./images/icons.svg#icon-modal-close-btn"></use>
+            </svg>
+        </button>
+        <form class="modal-form">
+            <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+            <label class="modal-form-field">
+                <span class="modal-form-input-description"> Имя </span>
+                <span class="modal-form-input-box">
+                    <input 
+                    type="text" 
+                    name="user_name" 
+                    class="modal-form-input" 
+                    required 
+                    pattern="[a-zA-Zа-яА-Я]+" 
+                    minlength="2" />
+                    <span class="modal-form-input-icon">
+                        <svg class="modal-field-icon" width="18px" height="18px">
+                            <use href="./images/icons.svg#icon-user-modal"></use>
+                        </svg>
+                    </span>
+                </span>
+            </label>
+            <label class="modal-form-field">
+                <span class="modal-form-input-description"> Телефон </span>
+                <span class="modal-form-input-box">
+                    <input 
+                    type="tel" 
+                    name="user_phone" 
+                    class="modal-form-input" 
+                    required 
+                    pattern="[0-9]{10}" minlength="10" />
+                    <span class="modal-form-input-icon">
+                        <svg class="modal-field-icon" width="18px" height="18px">
+                            <use href="./images/icons.svg#icon-phone-modal"></use>
+                        </svg>
+                    </span>
+                </span>
+            </label>
+            <label class="modal-form-field">
+                <span class="modal-form-input-description"> Почта </span>
+                <span class="modal-form-input-box">
+                    <input 
+                    type="email" 
+                    name="user_email" 
+                    class="modal-form-input" 
+                    required 
+                    />
+                    <span class="modal-form-input-icon">
+                        <svg class="modal-field-icon" width="18px" height="18px">
+                            <use href="./images/icons.svg#icon-email-modal"></use>
+                        </svg>
+                    </span>
+                </span>
+            </label>
+            <label class="modal-form-field">
+                <span class="modal-form-input-description"> Комментарий </span>
+                <span class="modal-form-input-box">
+                <textarea 
+                name="user_comment" 
+                class="modal-form-comment" 
+                placeholder="Введите текст"></textarea>
+                </span>
+            </label>
+            <label class="policy-check-field">
+                <input 
+                class="check-box"
+                type="checkbox"
+                name="policy-check-box"
+                />
+                <span class="check-box-icon">
+                    <svg class="check-mark" width="11px" height="8px">
+                        <use href="./images/icons.svg#icon-check-mark"></use>
+                    </svg>
+                </span>
+                <span class="check-box-description">Соглашаюсь с рассылкой и принимаю&nbsp;<a class="policy-link" href="">Условия договора </a></span>
+            </label>
+            <button type="submit" class="modal-form-submit">Отправить</button>
+        </form>
+    </div>
+</div>
+
+    <script src="./js/modal.js"></script> 
+    <script src="./js/mobile-menu.js"></script>
+</body>
+
+</html>

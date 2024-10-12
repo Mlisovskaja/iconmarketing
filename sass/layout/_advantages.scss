@@ -1,0 +1,54 @@
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+/*---------------DESKTOP-----------------*/
+@media screen and (min-width: 1200px) {
+  .advantages {
+    background: var(--second-color);
+  }
+  .advantages-section-title {
+    color: var(--main-color);
+  }
+
+  .advantages-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  .advantages-list__icon-box {
+    border: 3px solid rgba(97, 82, 77, 1);
+    border-radius: 50%;
+    padding: 40px;
+    height: 370px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgb(72, 37, 37);
+  }
+
+  .advantages-number {
+    font-size: 100px;
+    font-weight: 500;
+  }
+
+  .advantages-list__item {
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .advantages-list__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+}

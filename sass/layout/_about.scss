@@ -1,0 +1,38 @@
+/*---------0-1199px---------------*/
+@media screen and (max-width: 1199px) {
+  .about {
+    display: none;
+  }
+}
+
+/*---------------DESKTOP-----------------*/
+@media screen and (min-width: 1200px) {
+  .about {
+    background: var(--second-color);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .about__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about__img {
+    width: 600px;
+  }
+
+  .about__text {
+    font-weight: 400;
+    text-align: right;
+    line-height: 1.5;
+    color: var(--main-color);
+    font-size: 20px;
+  }
+
+  .about__text-bold {
+    font-weight: 600;
+    color: var(--main-color);
+  }
+}

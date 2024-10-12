@@ -1,0 +1,146 @@
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+  .contacts-box {
+    display: none;
+  }
+  .page-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .page-header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile-menu-open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
+}
+
+/*-----------TABLET--------------*/
+@media screen and (min-width: 768px) {
+  .mobile-menu-open {
+    display: none;
+  }
+  .page-header {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+    background: var(--main-color);
+  }
+
+  .page-nav {
+    display: flex;
+    align-items: center;
+  }
+  .page-header-box {
+    display: flex;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    align-items: center;
+  }
+  .page-header__logo {
+    margin-right: 88px;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu__item:not(:last-child) {
+    margin-right: 50px;
+  }
+  .menu__link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+    padding-top: 32px;
+    padding-bottom: 33px;
+  }
+  .current {
+    font-weight: 600;
+    position: relative;
+  }
+
+  .contacts-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 10px;
+  }
+  .contact-e-mail,
+  .contact-phone-number {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+    display: inline-flex;
+    align-items: center;
+  }
+  .envelope-icon,
+  .phone-icon {
+    order: -1;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+}
+
+/*---------------DESKTOP-----------------*/
+@media screen and (min-width: 1200px) {
+  .page-header-box {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .page-header__logo {
+    margin-right: 93px;
+    width: 320px;
+  }
+
+  .contacts-box {
+    justify-content: center;
+  }
+
+  .menu__link {
+    padding-bottom: 32px;
+    transition: var(--transition-main);
+
+    &:hover {
+      font-weight: 700;
+    }
+    &:focus {
+      font-weight: 700;
+    }
+  }
+
+  .contact-e-mail {
+    margin-right: 50px;
+  }
+
+  .contact-e-mail,
+  .contact-phone-number {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+    display: inline-flex;
+    align-items: center;
+    transition: var(--transition-main);
+
+    &:hover {
+      font-weight: 700;
+    }
+    &:focus {
+      font-weight: 700;
+    }
+  }
+}
