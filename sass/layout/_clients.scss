@@ -54,6 +54,12 @@
     height: 150px;
     border-radius: 50%;
   }
+
+  .cleints-list-logo {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  }
 }
 /*---------------DESKTOP-----------------*/
 @media screen and (min-width: 1200px) {
@@ -69,9 +75,8 @@
 
     &:hover,
     &:focus {
-      fill: var(--main-color);
       border-color: var(--main-color);
-      background: var(--second-color);
+      scale: 90%;
     }
   }
 }

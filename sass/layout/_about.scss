@@ -25,10 +25,11 @@
 
   .about__text {
     font-weight: 400;
-    text-align: right;
+    text-align: left;
     line-height: 1.5;
     color: var(--main-color);
     font-size: 20px;
+    margin-left: -20px;
   }
 
   .about__text-bold {

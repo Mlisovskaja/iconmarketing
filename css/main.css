@@ -64,19 +64,19 @@ button {
 /*---------MOBILE---------------*/
 @media screen and (max-width: 767px) {
   .section {
-    padding: 60px 0;
+    padding: 30px 0;
   }
 }
 /*-----------TABLET--------------*/
 @media screen and (min-width: 768px) {
   .section {
-    padding: 60px 0;
+    padding: 30px 0;
   }
 }
 /*---------------DESKTOP-----------------*/
 @media screen and (min-width: 1200px) {
   .section {
-    padding: 94px 0;
+    padding: 60px 0;
   }
 }
 .backdrop {
@@ -104,22 +104,20 @@ button {
 @media screen and (min-width: 1200px) {
   .footer {
     background-color: var(--main-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .footer-box {
-    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .footer-tablet-box {
     display: flex;
-    align-items: first baseline;
+    align-items: center;
+    justify-content: space-around;
   }
   .footer-address-box {
     display: table;
     margin-bottom: 20px;
     width: 320px;
   }
-  .footer__logo {
+  .footer__logo-box {
     width: 320px;
   }
   .address {
@@ -842,10 +840,11 @@ button {
   }
   .about__text {
     font-weight: 400;
-    text-align: right;
+    text-align: left;
     line-height: 1.5;
     color: var(--main-color);
     font-size: 20px;
+    margin-left: -20px;
   }
   .about__text-bold {
     font-weight: 600;
@@ -948,6 +947,11 @@ button {
     height: 150px;
     border-radius: 50%;
   }
+  .cleints-list-logo {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  }
 }
 /*---------------DESKTOP-----------------*/
 @media screen and (min-width: 1200px) {
@@ -961,9 +965,8 @@ button {
     transition: var(--transition-main);
   }
   .clients-list__link:hover, .clients-list__link:focus {
-    fill: var(--main-color);
     border-color: var(--main-color);
-    background: var(--second-color);
+    scale: 90%;
   }
 }
 /*---------MOBILE---------------*/
@@ -1021,7 +1024,7 @@ button {
   }
   .hero__box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
   .hero__title {
@@ -1051,7 +1054,7 @@ button {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    border: 3px solid var(--second-color);
+    border: 2px solid var(--second-color);
     border-radius: 4px;
     padding: 10px 24px;
     box-shadow: 2px 2px 2px rgb(72, 37, 37);
@@ -1063,12 +1066,20 @@ button {
     padding-bottom: 100px;
     background: var(--main-color);
     width: 100%;
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+  .hero__img-box {
+    border: 2px solid var(--second-color);
+    border-radius: 50%;
   }
   .hero__img {
     display: flex;
-    position: relative;
-    left: -50px;
-    width: 700px;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    padding: 20px;
   }
   .hero__title-box {
     width: 100%;
@@ -1087,6 +1098,10 @@ button {
   .hero__title {
     font-size: 58px;
     line-height: 1.36;
+  }
+  .hero__font_thin {
+    font-weight: 300;
+    font-size: 40px;
   }
   .hero__btn {
     padding: 10px 32px;
@@ -1541,25 +1556,20 @@ button {
   }
   .call__box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
   .call_photo-box {
     border-radius: 50%;
-    padding: 20px;
-    border: 3px solid var(--main-color);
-    position: relative;
+    border: 2px solid var(--main-color);
   }
   .call_photo {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    background-size: cover;
-    background-image: url(../../images/desktop/call/IMG_8848.JPG);
-  }
-  .call-to-action {
     display: flex;
-    align-items: center;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    padding: 20px;
   }
   .call_text {
     font-size: 20px;
@@ -1570,6 +1580,7 @@ button {
   }
   .call_text-box {
     margin-right: 20px;
+    max-width: 50%;
   }
   .call_text_accent {
     font-weight: 600;
@@ -1590,10 +1601,10 @@ button {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    border: 3px solid var(--main-color);
+    border: 2px solid var(--main-color);
     border-radius: 4px;
     padding: 10px 32px;
-    box-shadow: 2px 2px 2px rgb(72, 37, 37);
+    box-shadow: 2px 2px 2px rgb(116, 61, 61);
     transition: var(--transition-main);
   }
   .call__btn:hover, .call__btn:focus {
