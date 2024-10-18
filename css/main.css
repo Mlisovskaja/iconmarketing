@@ -862,32 +862,32 @@ button {
   }
   .advantages-list {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-around;
     color: var(--main-color);
     font-size: 15px;
     font-weight: 400;
-    margin-bottom: 40px;
   }
   .advantages-list__icon-box {
-    border: 3px solid rgb(97, 82, 77);
+    border: 2px solid var(--main-color);
     border-radius: 50%;
     padding: 40px;
-    height: 370px;
-    width: 370px;
+    height: 330px;
+    width: 330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 2px 2px 2px rgb(72, 37, 37);
+    margin: 5px;
   }
   .advantages-number {
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 500;
   }
   .advantages-list__item {
-    width: 30%;
     justify-content: center;
     text-align: center;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid var(--main-color);
   }
   .advantages-list__title {
     font-size: 20px;
@@ -935,16 +935,14 @@ button {
     align-items: center;
     gap: var(--item-gap);
   }
-  .clients-list__item {
-    flex-basis: calc((100% - 60px) / 3);
-  }
   .clients-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
     fill: var(--second-color);
     border: 2px solid var(--second-color);
-    height: 150px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
   }
   .cleints-list-logo {
@@ -1036,7 +1034,6 @@ button {
     text-transform: uppercase;
     color: var(--second-color);
     margin-bottom: 30px;
-    text-shadow: 2px 2px 2px rgb(72, 37, 37);
   }
   .hero__bnt-box {
     display: flex;
@@ -1057,7 +1054,6 @@ button {
     border: 2px solid var(--second-color);
     border-radius: 4px;
     padding: 10px 24px;
-    box-shadow: 2px 2px 2px rgb(72, 37, 37);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1489,6 +1485,7 @@ button {
   .services-list {
     list-style: "❯❯";
     padding-left: 150px;
+    color: var(--main-color);
   }
   .services-list__item {
     padding-left: 40px;
@@ -1604,7 +1601,6 @@ button {
     border: 2px solid var(--main-color);
     border-radius: 4px;
     padding: 10px 32px;
-    box-shadow: 2px 2px 2px rgb(116, 61, 61);
     transition: var(--transition-main);
   }
   .call__btn:hover, .call__btn:focus {

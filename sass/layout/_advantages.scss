@@ -15,35 +15,35 @@
 
   .advantages-list {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-around;
     color: var(--main-color);
     font-size: 15px;
     font-weight: 400;
-    margin-bottom: 40px;
   }
 
   .advantages-list__icon-box {
-    border: 3px solid rgba(97, 82, 77, 1);
+    border: 2px solid var(--main-color);
     border-radius: 50%;
     padding: 40px;
-    height: 370px;
-    width: 370px;
+    height: 330px;
+    width: 330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 2px 2px 2px rgb(72, 37, 37);
+    margin: 5px;
   }
 
   .advantages-number {
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 500;
   }
 
   .advantages-list__item {
-    width: 30%;
     justify-content: center;
     text-align: center;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid var(--main-color);
   }
 
   .advantages-list__title {

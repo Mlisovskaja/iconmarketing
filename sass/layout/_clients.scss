@@ -41,9 +41,9 @@
     align-items: center;
     gap: var(--item-gap);
   }
-  .clients-list__item {
-    flex-basis: calc((100% - 60px) / 3);
-  }
+  // .clients-list__item {
+  //   flex-basis: calc((100% - 60px) / 3);
+  // }
 
   .clients-list__link {
     display: flex;
@@ -51,7 +51,8 @@
     align-items: center;
     fill: var(--second-color);
     border: 2px solid var(--second-color);
-    height: 150px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
   }
 
