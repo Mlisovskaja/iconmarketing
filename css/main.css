@@ -701,10 +701,9 @@ button {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    border: 3px solid var(--main-color);
+    border: 2px solid var(--main-color);
     border-radius: 4px;
     padding: 10px 32px;
-    box-shadow: 2px 2px 2px rgb(72, 37, 37);
     transition: var(--transition-main);
   }
   .modal-form-submit:focus, .modal-form-submit:hover {
@@ -744,8 +743,11 @@ button {
     height: 30px;
     border-radius: 50%;
     background-color: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--main-color);
     padding: 0;
+  }
+  .modal-close-btn-icon {
+    fill: var(--main-color);
   }
 }
 /*-----------TABLET--------------*/
@@ -772,8 +774,11 @@ button {
     height: 30px;
     border-radius: 50%;
     background-color: var(--second-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--main-color);
     padding: 0;
+  }
+  .modal-close-btn-icon {
+    fill: var(--main-color);
   }
 }
 /*---------------DESKTOP-----------------*/
@@ -783,7 +788,7 @@ button {
     height: 500px;
   }
   .modal-close-btn:hover, .modal-close-btn:focus {
-    fill: var(--accent-color);
+    border: var(--second-color);
   }
 }
 /*---------MOBILE---------------*/
