@@ -9,8 +9,6 @@
 @media screen and (min-width: 1200px) {
   .about {
     background: var(--second-color);
-    padding-top: 0;
-    padding-bottom: 0;
   }
 
   .about__box {
@@ -19,8 +17,20 @@
     align-items: center;
   }
 
+  .about__img-box {
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid var(--main-color);
+    margin-right: 30px;
+  }
+
   .about__img {
-    width: 600px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    object-fit: cover;
+    margin: 20px;
   }
 
   .about__text {
@@ -29,7 +39,7 @@
     line-height: 1.5;
     color: var(--main-color);
     font-size: 20px;
-    margin-left: -20px;
+    max-width: 50%;
   }
 
   .about__text-bold {

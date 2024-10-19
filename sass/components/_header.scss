@@ -31,7 +31,7 @@
   }
   .page-header {
     border-bottom: 1px solid rgba(236, 236, 236, 1);
-    background: var(--main-color);
+    background: var(--second-color);
   }
 
   .page-nav {
@@ -60,7 +60,7 @@
     font-size: 20px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--main-color);
     padding-top: 32px;
     padding-bottom: 33px;
   }
@@ -81,7 +81,7 @@
     font-size: 15px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--main-color);
     display: inline-flex;
     align-items: center;
   }
@@ -96,8 +96,8 @@
 /*---------------DESKTOP-----------------*/
 @media screen and (min-width: 1200px) {
   .page-header-box {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   .page-header__logo {
@@ -131,7 +131,7 @@
     font-size: 15px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--main-color);
     display: inline-flex;
     align-items: center;
     transition: var(--transition-main);
