@@ -238,6 +238,7 @@ button {
     background: var(--second-color);
     display: flex;
     position: fixed;
+    z-index: 100;
     width: 100%;
   }
   .page-nav {
@@ -1070,7 +1071,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    padding-top: 60px;
+    padding-top: 160px;
     padding-bottom: 60px;
     background: var(--main-color);
     width: 100%;
