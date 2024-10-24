@@ -65,34 +65,28 @@
                 <div class="mobile-menu__box">
                 <ul class="mobile-menu__list list">
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link current link" href="./index.html">Студия</a>
+                        <a class="mobile-menu__link current link" href="#agenzia">Agenzia</a>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link link" href="./portfolio.html">Портфолио</a>
+                        <a class="mobile-menu__link link" href="#prezzi">Prezzi</a>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link link" href="#contacts">Контакты</a>
+                        <a class="mobile-menu__link link" href="##contacts">Contatti</a>
                     </li>
                 </ul>
                 </div>
                 <div class="mobile-menu__contacts-box">
-                <a class="mobile-menu__contact-phone-number link" href="tel:+380961111111">+38 096 111 11 11
+                <a class="mobile-menu__contact-phone-number link" href="tel:+380961111111">+39 346 472 69 00
                 </a>
-                <a class="mobile-menu__contact-e-mail link" href="mailto:info@devstudio.com">info@devstudio.com
+                <a class="mobile-menu__contact-e-mail link" href="mailto:iconmarketingitalia@gmail.com">iconmarketingitalia@gmail.com
                 </a>
                 <div class="mobile-menu__sn-box">
                     <ul class="mobile-menu__sn-list list">
                         <li class="mobile-menu__sn-item">
-                            <a class="mobile-menu__sn-link link" href="">Instagram</a>
-                        </li>
-                        <li class="mobile-menu__sn-item">
-                            <a class="mobile-menu__sn-link link" href="">Twitter</a>
+                            <a class="mobile-menu__sn-link link" href="https://www.instagram.com/iconmarketing.agency" target="_blank" rel="noopener noreferrer">Instagram</a>
                         </li>
                         <li class="mobile-menu__sn-item link">
                             <a class="mobile-menu__sn-link link" href="">Facebook</a>
-                        </li>
-                        <li class="mobile-menu__sn-item link">
-                            <a class="mobile-menu__sn-link link" href="">LinkedIn</a>
                         </li>
                     </ul>
                 </div>
@@ -115,10 +109,13 @@
             </div>
             </div>
       <div class="hero__img-box">
-        <img class="hero__img"
-        src="./images/desktop/hero/hero.jpg"
-        alt="laptop"
-        />
+        <picture>
+                        <source class="hero__img" srcset="./images/desktop/hero/hero.jpg" media="(min-width: 768px)" />
+                    
+                        <source class="hero__img" srcset="./images/mobile/hero/hero.png" media="(max-width: 767px)" />
+                    
+                        <img class="hero__img" src="./images/mobile/hero/hero.png" alt="stampa sul laptop"/>
+                    </picture>
 </div>
       
     </div>    
@@ -128,10 +125,14 @@
         <section id="agenzia" class="about section">  
             <div class="container about__box">
                 <div class="about__img-box">
-                  <img class="about__img"
-            src="./images//desktop/about/about.JPG"
-            alt="donna con laptop"
-            />
+                    <picture>
+                        <source class="about__img" srcset="./images/desktop/about/about.JPG" media="(min-width: 768px)" />
+                    
+                        <source class="about__img" srcset="./images/mobile/about/about.png" media="(max-width: 767px)" />
+                    
+                        <img class="about__img" src="./images/mobile/about/about.png" alt="donna con laptop"/>
+                    </picture>
+                 
             </div>
             <p class="about__text">Benvenuti in <span class="about__text-bold">Icon Marketing</span> - <br/>La tua agenzia di marketing nel Veneto. 
                 <br/>
@@ -143,10 +144,13 @@
 <!--SPHERES-->
         <section class="spheres section">  
             <div class="container spheres__box">
-            <img class="spheres__img"
-            src="./images//desktop/spheres/spheres.jpg"
-            alt="nomi di business"
-            />
+                <picture>
+                        <source class="spheres__img" srcset="./images/desktop/spheres/spheres.jpg" media="(min-width: 768px)" />
+                    
+                        <source class="spheres__img" srcset="./images/mobile/spheres/spheres.jpg" media="(max-width: 767px)" />
+                    
+                        <img class="spheres__img" src="./images/mobile/spheres/spheres.jpg" alt="nomi di business"/>
+                    </picture>
             </div>
         </section>
         
@@ -233,8 +237,8 @@
             <ul class="package-list list">
                 <li class="package-list__item">
                     <div class="package-list__box">
-                    <h3 class="package-list-title">Easy Start – 500€ / mese</h3>
-                    <ul class="package-list-services">
+                    <h3 class="package-list-title"><span class="package-list-title-point">❯❯</span>  Easy Start – 500€ / mese</h3>
+                    <ul class="package-list-services" data-toggle="services">
                         <li class="package-list-service">Analisi del business e dei concorrenti</li>
                         <li class="package-list-service">Impostazione dei profili sui social media</li>
                         <li class="package-list-service">Creazione di un piano di contenuti mensile <br/>(8 post)</li>
@@ -245,8 +249,8 @@
             </li>
             <li class="package-list__item">
                     <div class="package-list__box">
-                    <h3 class="package-list-title">Grow Up – 1250€ / mese</h3>
-                    <ul class="package-list-services">
+                    <h3 class="package-list-title"><span class="package-list-title-point">❯❯</span>   Grow Up – 1250€ / mese</h3>
+                    <ul class="package-list-services" data-toggle="services">
                         <li class="package-list-service">Analisi del business e dei concorrenti</li>
                         <li class="package-list-service">Sviluppo dell’identità visiva e del brand book</li>
                         <li class="package-list-service">Impostazione dei profili sui social media</li>
@@ -259,8 +263,8 @@
                 </li>
                 <li class="package-list__item">
                     <div class="package-list__box">
-                    <h3 class="package-list-title">Premium – 2500€ / mese</h3>
-                    <ul class="package-list-services">
+                    <h3 class="package-list-title"><span class="package-list-title-point">❯❯</span>   Premium – 2500€ / mese</h3>
+                    <ul class="package-list-services" data-toggle="services">
                         <li class="package-list-service">Analisi del business e dei concorrenti</li>
                         <li class="package-list-service">Sviluppo dell’identità visiva e del brand book</li>
                         <li class="package-list-service">Creazione di una strategia unica di promozione e raccomandazioni per il miglioramento del prodotto</li>
@@ -565,7 +569,7 @@
 </ul>
     </div>
 </section>
-    </main>
+   
 
 <!--CALL-TO-ACTION-->
         <section class="call section">  
@@ -584,7 +588,9 @@
                         </div>
 
                 </div>
-        </section>   
+        </section>
+        
+         </main>
 <!--FOOTER-->
   
     <footer class="footer">
@@ -735,6 +741,14 @@
 
     <script src="./js/modal.js"></script> 
     <script src="./js/mobile-menu.js"></script>
+    <script>
+    document.querySelectorAll('.package-list-title').forEach(title => {
+        title.addEventListener('click', () => {
+            const servicesList = title.nextElementSibling;
+            servicesList.style.display = servicesList.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
     
 </body>
 

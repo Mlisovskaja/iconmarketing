@@ -1,18 +1,67 @@
-/*---------0-1199px---------------*/
-@media screen and (max-width: 1199px) {
-  .package {
-    display: none;
-  }
-}
-
-/*---------------DESKTOP-----------------*/
-@media screen and (min-width: 1200px) {
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
   .package {
     background-color: rgba(97, 82, 77, 1);
   }
 
   .package-section-title {
-    color: #fff;
+    color: var(--second-color);
+  }
+
+  .package-list-services {
+    display: none;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .package-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .package-list__item {
+    color: var(--second-color);
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    border-top: 2px solid var(--second-color);
+    border-bottom: 2px solid var(--second-color);
+  }
+
+  .package-list-title-point {
+    color: var(--second-color);
+    margin-right: 10px;
+  }
+
+  .package-list-title {
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .package-list-services {
+    list-style: "❯❯";
+    text-align: left;
+  }
+  .package-list-service {
+    padding-left: 10px;
+  }
+
+  .package-list-service:not(:last-child) {
+    padding-bottom: 15px;
+  }
+}
+/*-----------TABLET--------------*/
+@media screen and (min-width: 768px) {
+  .package {
+    background-color: rgba(97, 82, 77, 1);
+  }
+
+  .package-section-title {
+    color: var(--second-color);
   }
 
   .package-list {
@@ -24,7 +73,50 @@
   }
 
   .package-list__item {
-    color: #fff;
+    color: var(--second-color);
+    font-size: 15px;
+    width: 30%;
+    font-weight: 400;
+  }
+
+  .package-list-title {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+  }
+  .package-list-services {
+    list-style: "❯❯";
+    text-align: left;
+  }
+  .package-list-service {
+    padding-left: 10px;
+  }
+
+  .package-list-service:not(:last-child) {
+    padding-bottom: 15px;
+  }
+}
+
+/*---------------DESKTOP-----------------*/
+@media screen and (min-width: 1200px) {
+  .package {
+    background-color: rgba(97, 82, 77, 1);
+  }
+
+  .package-section-title {
+    color: var(--second-color);
+  }
+
+  .package-list {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .package-list__item {
+    color: var(--second-color);
     font-size: 15px;
     width: 30%;
     font-weight: 400;

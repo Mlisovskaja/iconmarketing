@@ -1,7 +1,80 @@
-/*---------0-1199px---------------*/
-@media screen and (max-width: 1199px) {
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
   .about {
-    display: none;
+    background: var(--second-color);
+    padding-right: 0;
+    width: 100vw;
+  }
+
+  .about__box {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    width: 100vw;
+  }
+
+  .about__img {
+    height: 50%;
+  }
+
+  .about__text {
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5;
+    color: var(--main-color);
+    font-size: 13px;
+    margin-top: -10px;
+  }
+
+  .about__text-bold {
+    font-weight: 600;
+    color: var(--main-color);
+  }
+}
+/*-----------TABLET--------------*/
+@media screen and (min-width: 768px) {
+  .about {
+    background: var(--second-color);
+  }
+
+  .about__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about__img-box {
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    margin-right: 40px;
+  }
+
+  .about__img {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+  }
+
+  .about__text {
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5;
+    color: var(--main-color);
+    font-size: 15px;
+    max-width: 40%;
+  }
+
+  .about__text-bold {
+    font-weight: 600;
+    color: var(--main-color);
   }
 }
 
@@ -18,19 +91,23 @@
   }
 
   .about__img-box {
-    display: flex;
-    border-radius: 50%;
     border: 2px solid var(--main-color);
-    margin-right: 30px;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    position: relative;
+    margin-right: 40px;
   }
 
   .about__img {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
-    display: flex;
+    height: 450px;
+    width: 450px;
     object-fit: cover;
-    margin: 20px;
+    padding: 20px;
+    display: flex;
+    position: absolute;
   }
 
   .about__text {
