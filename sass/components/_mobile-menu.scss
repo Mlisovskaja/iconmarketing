@@ -6,7 +6,7 @@
     z-index: 1000;
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: var(--second-color);
 
     opacity: 0;
     visibility: hidden;
@@ -57,6 +57,7 @@
   .mobile-menu__contacts-box {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .mobile-menu__contact-phone-number {
     font-weight: 400;
@@ -72,6 +73,11 @@
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    display: inline-block;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
   }
   .mobile-menu__sn-box {
     display: flex;

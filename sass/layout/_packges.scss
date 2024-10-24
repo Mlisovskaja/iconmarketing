@@ -25,10 +25,15 @@
     color: var(--second-color);
     padding-left: 20px;
     padding-top: 15px;
+    margin-bottom: -15px;
     font-size: 13px;
     font-weight: 400;
     border-top: 2px solid var(--second-color);
+  }
+
+  .package-list__item:last-child {
     border-bottom: 2px solid var(--second-color);
+    margin-bottom: 20px;
   }
 
   .package-list-title-point {
@@ -48,9 +53,6 @@
   }
   .package-list-service {
     padding-left: 10px;
-  }
-
-  .package-list-service:not(:last-child) {
     padding-bottom: 15px;
   }
 }

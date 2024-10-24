@@ -593,7 +593,7 @@ button {
     z-index: 1000;
     top: 0;
     left: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--second-color);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -638,6 +638,7 @@ button {
   .mobile-menu__contacts-box {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .mobile-menu__contact-phone-number {
     font-weight: 400;
@@ -653,6 +654,11 @@ button {
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    display: inline-block;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
   }
   .mobile-menu__sn-box {
     display: flex;
@@ -1006,16 +1012,12 @@ button {
   .about {
     background: var(--second-color);
     padding-right: 0;
-    width: 100vw;
   }
   .about__box {
     display: flex;
     flex-direction: column;
     padding-right: 0;
-    width: 100vw;
-  }
-  .about__img {
-    height: 50%;
+    margin-right: 0;
   }
   .about__text {
     font-weight: 400;
@@ -1336,9 +1338,6 @@ button {
     flex-direction: row-reverse;
     padding-right: 40px;
     position: relative;
-  }
-  .hero__img {
-    height: 50%;
   }
   .hero__title-box {
     display: inline;
@@ -1830,10 +1829,14 @@ button {
     color: var(--second-color);
     padding-left: 20px;
     padding-top: 15px;
+    margin-bottom: -15px;
     font-size: 13px;
     font-weight: 400;
     border-top: 2px solid var(--second-color);
+  }
+  .package-list__item:last-child {
     border-bottom: 2px solid var(--second-color);
+    margin-bottom: 20px;
   }
   .package-list-title-point {
     color: var(--second-color);
@@ -1851,8 +1854,6 @@ button {
   }
   .package-list-service {
     padding-left: 10px;
-  }
-  .package-list-service:not(:last-child) {
     padding-bottom: 15px;
   }
 }

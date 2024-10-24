@@ -3,18 +3,13 @@
   .about {
     background: var(--second-color);
     padding-right: 0;
-    width: 100vw;
   }
 
   .about__box {
     display: flex;
     flex-direction: column;
     padding-right: 0;
-    width: 100vw;
-  }
-
-  .about__img {
-    height: 50%;
+    margin-right: 0;
   }
 
   .about__text {
