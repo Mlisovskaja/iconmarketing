@@ -2,23 +2,14 @@
 @media screen and (max-width: 767px) {
   .call {
     background: var(--second-color);
+    width: 100vw;
+    padding-left: 0;
   }
   .call__box {
+    width: 100vw;
+    padding-left: 0;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .call_photo-box {
-    border-radius: 50%;
-    border: 2px solid var(--main-color);
-  }
-  .call_photo {
-    display: flex;
-    border-radius: 50%;
-    height: 350px;
-    width: 350px;
-    object-fit: cover;
-    padding: 20px;
+    flex-direction: column-reverse;
   }
 
   .call_text {
@@ -29,8 +20,8 @@
     line-height: 1.5;
   }
   .call_text-box {
+    margin-left: 20px;
     margin-right: 20px;
-    max-width: 50%;
   }
   .call_text_accent {
     font-weight: 600;
