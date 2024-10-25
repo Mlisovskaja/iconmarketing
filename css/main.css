@@ -1998,16 +1998,21 @@ button {
     align-items: center;
   }
   .call_photo-box {
-    border-radius: 50%;
     border: 2px solid var(--main-color);
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    position: relative;
   }
   .call_photo {
-    display: flex;
     border-radius: 50%;
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
     padding: 20px;
+    display: flex;
+    position: absolute;
   }
   .call_text {
     font-size: 15px;
@@ -2018,7 +2023,7 @@ button {
   }
   .call_text-box {
     margin-right: 20px;
-    max-width: 50%;
+    max-width: 40%;
   }
   .call_text_accent {
     font-weight: 600;
@@ -2055,16 +2060,22 @@ button {
     align-items: center;
   }
   .call_photo-box {
-    border-radius: 50%;
     border: 2px solid var(--main-color);
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    position: relative;
+    margin-right: 40px;
   }
   .call_photo {
-    display: flex;
     border-radius: 50%;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
     object-fit: cover;
     padding: 20px;
+    display: flex;
+    position: absolute;
   }
   .call_text {
     font-size: 20px;
